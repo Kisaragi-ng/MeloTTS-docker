@@ -1,0 +1,7 @@
+services:
+  melotts:
+    image: kisaragi29/melotts:latest
+#    build: .
+    container_name: melotts
+    ports:
+      - 8888:8888
